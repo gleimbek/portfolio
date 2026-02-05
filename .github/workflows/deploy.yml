@@ -36,7 +36,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: gh-pages
-          force_orphan: true        # <--- crea la rama gh-pages desde cero
-          allow_empty_commit: true  # <--- evita error si Git cree que dist está vacío
+          force_orphan: true
+          allow_empty_commit: true
           user_name: "github-actions"
           user_email: "github-actions@github.com"
