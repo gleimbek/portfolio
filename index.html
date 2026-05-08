@@ -2,63 +2,90 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gustavo Leimbek | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gustavo Leimbek | Software Developer</title>
+
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- Font (opcional pero moderno) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="logo">GL</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
   <!-- HERO -->
-  <header class="hero">
-    <h1>Gustavo Leimbek</h1>
-    <p>Software Developer | Java • JavaScript • Web Development</p>
-    <a href="#projects" class="btn">View Projects</a>
-  </header>
+  <section class="hero">
+    <h1 class="fade-in">Gustavo Leimbek</h1>
+    <p class="fade-in delay">Software Developer | Java • JavaScript • Web Development</p>
+    <a href="#projects" class="btn fade-in delay2">View Work</a>
+  </section>
 
   <!-- ABOUT -->
-  <section class="section">
+  <section id="about" class="section">
     <h2>About Me</h2>
     <p>
-      Web developer focused on building real-world applications using Java, JavaScript,
-      HTML, CSS, and backend technologies. Passionate about learning and problem solving.
+      Software developer focused on building modern web applications using Java, JavaScript,
+      HTML, CSS and backend technologies. Passionate about clean code, learning and real-world projects.
     </p>
   </section>
 
   <!-- SKILLS -->
-  <section class="section">
+  <section id="skills" class="section">
     <h2>Skills</h2>
+
     <div class="grid">
       <div class="card">Java</div>
       <div class="card">JavaScript</div>
-      <div class="card">HTML5</div>
-      <div class="card">CSS3</div>
+      <div class="card">HTML</div>
+      <div class="card">CSS</div>
       <div class="card">PHP</div>
       <div class="card">MySQL</div>
     </div>
   </section>
 
   <!-- PROJECTS -->
-  <section class="section" id="projects">
+  <section id="projects" class="section">
     <h2>Projects</h2>
 
-    <div class="project">
-      <h3>To-Do App</h3>
-      <p>Simple task manager built with JavaScript.</p>
-    </div>
+    <div class="projects">
 
-    <div class="project">
-      <h3>Weather App</h3>
-      <p>App that consumes weather API and displays live data.</p>
-    </div>
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Modern responsive portfolio built with HTML, CSS and JavaScript.</p>
+      </div>
 
+      <div class="project-card">
+        <h3>To-Do App</h3>
+        <p>Task manager with CRUD operations using JavaScript.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Weather App</h3>
+        <p>API-based application showing real-time weather data.</p>
+      </div>
+
+    </div>
   </section>
 
   <!-- CONTACT -->
-  <section class="section">
+  <section id="contact" class="section">
     <h2>Contact</h2>
     <p>Email: gleimbek@gmail.com</p>
     <p>LinkedIn: linkedin.com/in/gleimbek</p>
   </section>
 
+  <script src="script.js"></script>
 </body>
 </html>
