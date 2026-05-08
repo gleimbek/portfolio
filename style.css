@@ -102,3 +102,25 @@ h2 {
     transform: translateY(0);
   }
 }
+
+/* THEME TOGGLE */
+#theme-toggle {
+  background: #38bdf8;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* LIGHT MODE */
+.light-mode {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.light-mode .nav,
+.light-mode .card,
+.light-mode .project-card {
+  background: white;
+  color: black;
+}
