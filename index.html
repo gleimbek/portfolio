@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo Leimbek | Web & Software Developer</title>
+
+    <!-- Le dicen a Google que existen las dos versiones -->
+    <link rel="alternate" hreflang="es" href="es/">
+    <link rel="alternate" hreflang="en" href="en/">
+    <link rel="alternate" hreflang="x-default" href="en/">
+
+    <script>
+        // Revisa los idiomas del navegador en orden de preferencia.
+        // Si alguno es español, abre /es/. Si no, abre /en/.
+        (function () {
+            var idiomas = navigator.languages || [navigator.language || 'en'];
+            var destino = 'en/';
+            for (var i = 0; i < idiomas.length; i++) {
+                var codigo = idiomas[i].slice(0, 2).toLowerCase();
+                if (codigo === 'es' || codigo === 'en') {
+                    destino = codigo + '/';
+                    break;
+                }
+            }
+            // replace() evita que esta página quede en el historial:
+            // el botón "Atrás" no te devuelve a una página vacía.
+            location.replace(destino);
+        })();
+    </script>
+</head>
+<body>
+    <!-- Solo se ve si el navegador tiene JavaScript desactivado -->
+    <p><a href="es/">Español</a> · <a href="en/">English</a></p>
+</body>
+</html>

@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo Leimbek | Web & Software Developer</title>
+    <link rel="stylesheet" href="/leimbek_WebStudio/assets/css/style.css">
+	<meta name="description" content="Gustavo Leimbek, web and software developer. Websites and apps built with PHP, Laravel, JavaScript and WordPress. Projects, certifications and free PDF cheat sheets.">
+	<link rel="icon" href="assets/imagenes/favicon/favicon.ico" sizes="any">
+	<link rel="icon" type="image/png" href="assets/imagenes/favicon/favicon-32x32.png">
+	<link rel="apple-touch-icon" href="assets/imagenes/favicon/apple-touch-icon.png">
+</head>
+<body>
+
+    <nav class="nav-principal">
+        <div class="logo">
+			<img src="/leimbek_WebStudio/assets/imagenes/perfil.jpeg" alt="Gustavo Leimbek">
+			<strong>Gustavo Leimbek</strong>
+		</div>
+		
+		<button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+			☰
+		</button>
+        <ul class="menu-enlaces" id="menu-enlaces">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+			<li><a href="#education-skills">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="../es/" class="cambio-idioma">ES</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="seccion-hero">
+        <div class="contenedor-hero">
+            <h1>Stable, Fast, and Professional Web Solutions</h1>
+            <p>Professional web developer with over 3 years of experience designing and developing interactive web applications.</p>
+            <a href="#projects" class="boton-primario">View Projects</a>
+        </div>
+    </header>
+
+    <section id="about" class="seccion-bloque">
+        <div class="contenedor grid-dos-columnas">
+            <div class="texto-sobre-mi">
+                <h2>About Me</h2>
+                <p>I hold an <strong>Associate Degree in Applied Science (A.A.S.) in Software and Web Development</strong> from the College of Southern Nevada, graduating with a distinguished 3.98 GPA and as a member of the Phi Theta Kappa Honor Society. I specialize in WordPress, JavaScript, HTML5, CSS3, SQL, MySQL, and PHP, combining functional application development with strong skills in leadership, cybersecurity analysis, and remote IT support.</p>
+            </div>
+            <div class="contenedor-imagen-perfil">
+                <img src="/leimbek_WebStudio/assets/imagenes/me.jpg" alt="Gustavo Leimbek Workspace"> 
+            </div>
+        </div>
+    </section>
+	
+	<section id="experience" class="seccion-bloque fondo-alterno">
+		<div class="contenedor">
+
+			<h2 class="titulo-experiencia">Professional Experience</h2>
+
+			<!-- EXPERIENCIA 1 -->
+			<div class="fila-experiencia">
+				<div class="contenedor-imagen-perfil">
+					<img src="/leimbek_WebStudio/assets/imagenes/asistente.jpg" 
+						 alt="Remote IT Support and Coding Environment">
+				</div>
+
+				<div class="bloque-experiencia">
+					<h3>Online Teaching Assistant</h3>
+					<span class="empresa-experiencia">College of Southern Nevada</span> |
+					<span class="fecha-experiencia">August 2023 - Present</span>
+					<ul>
+						<li>Maintained programming instructional materials and virtual environments (PHP, MySQL, Java).</li>
+						<li>Increased student academic performance on digital platforms by 30%.</li>
+						<li>Facilitated remote tutoring sessions, improving the retention of complex concepts by 70%.</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- EXPERIENCIA 2 (invertida) -->
+			<div class="fila-experiencia fila-invertida">
+				<div class="contenedor-imagen-perfil">
+					<img src="/leimbek_WebStudio/assets/imagenes/support.jpg" 
+						 alt="Remote IT Support and Coding Environment">
+				</div>
+				<div class="bloque-experiencia">
+					<h3>Freelance Web Developer & IT Specialist</h3>
+					<span class="empresa-experiencia">Freelancer / Self-Employed</span> |
+					<span class="fecha-experiencia">August 2016 - Present</span>
+					<ul>
+						<li>Led and successfully deployed over 155 custom web development projects.</li>
+						<li>Executed over 250 complex configurations of operating systems and remote software.</li>
+						<li>Provided specialized technology consulting that increased infrastructure security by 45%.</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+    <section id="projects" class="seccion-bloque">
+        <div class="contenedor">
+            <h2>Developed Software and Applications</h2>
+            <div class="grid-dinamico">
+                
+                <div class="tarjeta-premium">
+
+					<div class="imagen-tarjeta">
+						<img src="/leimbek_WebStudio/assets/imagenes/nexus.png" alt="SaaS Dashboard Laravel">
+					</div>
+
+					<div class="contenido-tarjeta">
+
+						<span class="categoria-proyecto">Full-Stack SaaS</span>
+
+						<h3>Nexus Dashboard (Laravel SaaS Admin Panel)</h3>
+						<br>
+						<p>
+							A SaaS-style administrative platform developed in Laravel, featuring authentication, user roles, full CRUD functionality, dynamic metrics, and real-time data visualization using Chart.js.
+						</p>
+
+						<div class="tecnologias-tags">
+							<span class="tag">Laravel 12</span>
+							<span class="tag">PHP 8.2</span>
+							<span class="tag">MySQL</span>
+							<span class="tag">Chart.js</span>
+							<span class="tag">Vite</span>
+						</div>
+
+						<div style="margin-top:15px;">
+							<a href="https://github.com/gleimbek/nexus-dashboard" target="_blank" class="boton-primario">
+								View on GitHub
+							</a>
+						</div>
+
+					</div>
+
+				</div>
+
+                <div class="tarjeta-premium">
+					<div class="imagen-tarjeta">
+						<img src="/leimbek_WebStudio/assets/imagenes/scriptgen.png" alt="ScriptGen AI">
+					</div>
+					<div class="contenido-tarjeta">
+						<span class="categoria-proyecto">AI Tool</span>
+						<h3>ScriptGen AI</h3>
+						<br>
+						<p>AI-powered script generator for TikTok, Instagram Reels and YouTube Shorts. Built with React and Claude API. Generates hooks, structure, captions and viral tips in seconds. <strong>⚠️ Requires Anthropic API credits to generate scripts.</strong></p>
+						<div class="tecnologias-tags">
+							<span class="tag">React</span>
+							<span class="tag">Claude API</span>
+							<span class="tag">Vite</span>
+						</div>
+						<div style="margin-top:15px;">
+							<a href="https://scriptgen-ai-zeta.vercel.app" target="_blank" class="boton-primario">Live Demo</a>
+							<!--<a href="https://github.com/gleimbek/scriptgen-ai" target="_blank" class="boton-primario">GitHub</a>-->
+						</div>
+					</div>
+				</div>
+				
+				<div class="tarjeta-premium">
+					<div class="imagen-tarjeta">
+						<img src="/leimbek_WebStudio/assets/imagenes/jcevents.jpg" alt="Web de Eventos">
+					</div>
+					<div class="contenido-tarjeta">
+						<span class="categoria-proyecto">Website creation</span>
+						<h3>JC Events</h3>
+						<br>
+						<p>Creation of the JC Events website, featuring services, contact information, packages for the celebrations offered by the company, a photo gallery of past events, a contact form for event quotes, and direct contact via Whatsapp.</strong></p>
+						<div class="tecnologias-tags">
+							<span class="tag">HTML5</span>
+							<span class="tag">CSS3</span>
+							<span class="tag">JavaScript</span>
+						</div>
+						<div style="margin-top:15px;">
+							<a href="https://gleimbek.github.io/JC_Events/" target="_blank" class="boton-primario">View on GitHub</a>
+						</div>
+					</div>
+				</div>
+				
+            </div>
+			<br>
+			<br>
+			<!--------------SEGUNDA SERIE DE PROYECTOS----------------------------------------------------------------------->
+			<div class="grid-dinamico">
+                
+                <div class="tarjeta-premium">
+
+					<div class="imagen-tarjeta">
+						<img src="/leimbek_WebStudio/assets/imagenes/pronuntia.jpg" alt="Pronunciacion del Ingles">
+					</div>
+
+					<div class="contenido-tarjeta">
+
+						<span class="categoria-proyecto">Educational App</span>
+						
+						<h3>Pronunzia Master</h3>
+						<br>
+						<p>
+							An educational platform for learning the various pronunciations of English correctly. You can listen to and practice pronunciation to ensure you learn the English language properly.
+						</p>
+
+						<div class="tecnologias-tags">
+							<span class="tag">HTML5</span>
+							<span class="tag">CSS3</span>
+							<span class="tag">JavaScript</span>
+						</div>
+
+						<div style="margin-top:15px;">
+							<a href="https://gleimbek.github.io/Pronunzia-Master/" target="_blank" class="boton-primario">
+								View on GitHub
+							</a>
+						</div>
+
+					</div>
+
+				</div>
+
+                <div class="tarjeta-premium">
+					<div class="imagen-tarjeta">
+						<img src="/leimbek_WebStudio/assets/imagenes/Devportal.png" alt="ScriptGen AI">
+					</div>
+					<div class="contenido-tarjeta">
+						<span class="categoria-proyecto">Web Learning Platform</span>
+						<h3>DevPortal</h3>
+						<p><p>A web-based educational portal with full bilingual support (English/Spanish) featuring courses on HTML5, CSS3, and JavaScript; 50-question certification exams with an 80% passing score; automatic PDF certificate generation via the Canvas API; and SCORM integration for LMS compatibility.</strong></p></p>
+						<div class="tecnologias-tags">
+							<span class="tag">HTML</span>
+							<span class="tag">CSS</span>
+							<span class="tag">JavaScript</span>
+							<span class="tag">Bilingual (EN/ES)</span>
+						</div>
+						<div style="margin-top:15px;">
+							<a href="https://gleimbek.github.io/Devportal/" target="_blank" class="boton-primario">View on GitHub</a>
+							<!--<a href="https://github.com/gleimbek/scriptgen-ai" target="_blank" class="boton-primario">GitHub</a>-->
+						</div>
+					</div>
+				</div>
+				
+				<div class="tarjeta-premium">
+					<div class="imagen-tarjeta">
+						<img src="/leimbek_WebStudio/assets/imagenes/jcevents-appointment.jpg" alt="JC Events Appointment System">
+					</div>
+					<div class="contenido-tarjeta">
+						<span class="categoria-proyecto">PWA · Reservation System</span>
+						<h3>JC Events Appointment System</h3>
+						<br>
+						 <p>
+							Progressive web application (PWA) developed to manage 
+							booking events and client appointments. The system allows 
+							select services, dates and times, register the 
+							customer information and manage appointments from one 
+							administrative panel.
+						</p>
+			
+						<div class="tecnologias-tags">
+							<span class="tag">PHP</span>
+							<span class="tag">MySQL</span>
+							<span class="tag">JavaScript</span>
+							<span class="tag">HTML5</span>
+							<span class="tag">CSS3</span>
+							<span class="tag">PWA</span>
+							<span class="tag">Render</span>
+						</div>
+						<div style="margin-top:15px;">
+							<a href="https://jc-events-appointment.onrender.com/index.php"
+							   target="_blank"
+							   rel="noopener"
+							   class="boton-primario">
+								Live Demo
+							</a>
+							
+							<!--<a href="https://github.com/gleimbek/jc-events-appointment"
+							   target="_blank"
+							   rel="noopener"
+							   class="boton-primario">
+								View on GitHub
+							</a>-->
+						</div>
+					</div>
+				</div>
+				
+            </div>
+        </div>
+    </section>
+	
+	<section id="education-skills" class="seccion-bloque fondo-alterno">
+		<div class="contenedor">
+			<h2>Education & Skills</h2>
+			<div class="grid-dos-columnas">
+	 
+				<div class="bloque-experiencia">
+					<h3>Education</h3>
+					<ul>
+						<li>
+							<strong>A.A.S. in Software & Web Development</strong><br>
+							College of Southern Nevada — Spring 2024<br>
+							GPA 3.98 · Phi Theta Kappa Honor Society
+						</li>
+					</ul>
+					<br>
+				</div>
+				<div class="bloque-experiencia">
+					<h3>Languages</h3>
+					<ul>
+						<li>Spanish (Native)</li>
+						<li>English (High Intermediate)</li>
+						<li>Portuguese (Advanced)</li>
+					</ul>
+				</div>
+	 
+				<div class="bloque-experiencia">
+					<h3>Web Technologies</h3>
+					<div class="tecnologias-tags">
+						<span class="tag">HTML5</span>
+						<span class="tag">CSS3</span>
+						<span class="tag">JavaScript</span>
+						<span class="tag">PHP</span>
+						<span class="tag">WordPress</span>
+						<span class="tag">React</span>
+						<span class="tag">Laravel</span>
+					</div>
+					<br>
+					<h3>Databases & Programming</h3>
+					<div class="tecnologias-tags">
+						<span class="tag">SQL</span>
+						<span class="tag">MySQL</span>
+						<span class="tag">Python</span>
+						<span class="tag">Eclipse</span>
+						<span class="tag">IntelliJ IDEA</span>
+						<span class="tag">NetBeans</span>
+					</div>
+				</div>	
+				<div class="bloque-experiencia">	
+					<h3>IT & Security</h3>
+					<div class="tecnologias-tags">
+						<span class="tag">Remote IT Support</span>
+						<span class="tag">Network Security Fundamentals</span>
+						<span class="tag">Cybersecurity Analysis</span>
+					</div>
+					<br>
+					<h3>Office & Design Tools</h3>
+					<div class="tecnologias-tags">
+						<span class="tag">Adobe Creative Suite</span>
+						<span class="tag">Power BI</span>
+						<span class="tag">Microsoft Project</span>
+						<span class="tag">Word / Excel / PowerPoint</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <section id="certifications" class="seccion-bloque">
+        <div class="contenedor">
+            <h2>Courses and Certifications</h2>
+            <div class="grid-logos">
+                <div class="logo-cert-card">
+					<a href="/leimbek_WebStudio/assets/certificados/oracle.pdf" target="_blank">
+						<img src="/leimbek_WebStudio/assets/imagenes/oracle.png" alt="Oracle">
+					</a>
+                    <h4>Oracle Certified Foundations Associate</h4>
+                </div>
+                <div class="logo-cert-card">
+					<a href="/leimbek_WebStudio/assets/certificados/Network.pdf" target="_blank">
+						<img src="/leimbek_WebStudio/assets/imagenes/network.png" alt="Network Certification">
+					</a>
+                    <h4>TestOut Network Pro</h4>
+                </div>
+                <div class="logo-cert-card">
+					<a href="/leimbek_WebStudio/assets/certificados/officepro.pdf" target="_blank">
+						<img src="/leimbek_WebStudio/assets/imagenes/officepro.png" alt="Office Pro Essentials">
+					</a>
+                    <h4>TestOut Office Pro Essentials</h4>
+                </div>
+				<div class="logo-cert-card">
+					<a href="/leimbek_WebStudio/assets/certificados/Python.pdf" target="_blank">
+						<img src="/leimbek_WebStudio/assets/imagenes/python.png"  alt="Programmer Python">
+					</a>
+                    <h4>Programmer Python</h4>
+                </div>
+				<div class="logo-cert-card">
+					<a href="/leimbek_WebStudio/assets/certificados/fullstack.pdf" target="_blank">
+						<img src="/leimbek_WebStudio/assets/imagenes/fullstack.png"  alt="Become a Full-Stack Web Developer">
+					</a>
+                    <h4>Become a Full-Stack Web Developer</h4>
+                </div>
+				<div class="logo-cert-card">
+					<a href="/leimbek_WebStudio/assets/certificados/googleIT.pdf" target="_blank">
+						<img src="/leimbek_WebStudio/assets/imagenes/googleIT.png"  alt="Google IT Support">
+					</a>
+                    <h4>Google IT Support</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resources" class="seccion-bloque fondo-alterno">
+        <div class="contenedor">
+            <h2>Technical Resources & Infographics</h2>
+            <p class="text-center-muted">Visually choose your specialized guide to start your automated secure local download.</p>
+            
+            <div class="grid-dinamico">
+                
+                <div class="tarjeta-premium">
+                    <div class="imagen-tarjeta alto-recurso">
+                        <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80" alt="Cover Infografía CSS">
+                    </div>
+                    <div class="contenido-tarjeta fondo-formulario">
+                        <h3>Infographic: Clean CSS Architecture</h3>
+                        <p>Master stylesheet layout structures professionally without heavy, bloating frameworks.</p>
+                        <form class="formulario-descarga" data-archivo="../assets/recursos/clean-css-architecture-en.pdf" novalidate>
+							<input type="hidden" name="recurso" value="Cheat sheet: Arquitectura limpia en CSS">
+							<input type="hidden" name="idioma" value="es">
+							<input type="hidden" name="_subject" value="Nueva descarga: Cheat sheet: Arquitectura limpia en CSS">
+							<input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none">
+							<input type="text" name="nombre" placeholder="Tu nombre" autocomplete="name" required>
+							<input type="email" name="email" placeholder="Tu correo electrónico" autocomplete="email" required>
+							<button type="submit" class="boton-primario">Download (PDF)</button>
+							<p class="aviso-descarga" aria-live="polite"></p>
+						</form>
+                    </div>
+                </div>
+
+                <div class="tarjeta-premium">
+                    <div class="imagen-tarjeta alto-recurso">
+                        <img src="https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=600&q=80" alt="Cover Cheat Sheet SQL">
+                    </div>
+                    <div class="contenido-tarjeta fondo-formulario">
+                        <h3>Cheat Sheet: SQL Query Optimization</h3>
+                        <p>Essential local MySQL commands reference sheet to boost database response speeds.</p>
+                        <form class="formulario-descarga" data-archivo="../assets/recursos/sql-query-optimization-en.pdf" novalidate>
+							<input type="hidden" name="recurso" value="Cheat sheet: Optimización de consultas SQL">
+							<input type="hidden" name="idioma" value="es">
+							<input type="hidden" name="_subject" value="Nueva descarga: Cheat sheet: Optimización de consultas SQL">
+							<input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none">
+							<input type="text" name="nombre" placeholder="Tu nombre" autocomplete="name" required>
+							<input type="email" name="email" placeholder="Tu correo electrónico" autocomplete="email" required>
+							<button type="submit" class="boton-primario">Download (PDF)</button>
+							<p class="aviso-descarga" aria-live="polite"></p>
+						</form>
+                    </div>
+                </div>
+				<div class="tarjeta-premium">
+					<div class="imagen-tarjeta alto-recurso">
+						<img src="/leimbek_WebStudio/assets/imagenes/checklisten.jpg" alt="Portada: Checklist: Antes de lanzar tu sitio web" loading="lazy">
+					</div>
+					<div class="contenido-tarjeta fondo-formulario">
+						<h3>Checklist: Before Launching Your Website</h3><br>
+						<p>What a business needs to review before publishing its website, explained without technical jargon.</p>
+
+						<form class="formulario-descarga" data-archivo="../assets/recursos/website-launch-checklist-en.pdf" novalidate>
+							<input type="hidden" name="recurso" value="Checklist: Antes de lanzar tu sitio web">
+							<input type="hidden" name="idioma" value="es">
+							<input type="hidden" name="_subject" value="Nueva descarga: Checklist: Antes de lanzar tu sitio web">
+							<input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none">
+							<input type="text" name="nombre" placeholder="Tu nombre" autocomplete="name" required>
+							<input type="email" name="email" placeholder="Tu correo electrónico" autocomplete="email" required>
+							<button type="submit" class="boton-primario">Download (PDF)</button>
+							<p class="aviso-descarga" aria-live="polite"></p>
+						</form>
+					</div>
+				</div>
+            </div>
+        </div>
+    </section>
+	
+	<!-- ==========================================================================
+     PIE DE PÁGINA (FOOTER)
+     Pegar justo antes de </body>
+     ========================================================================== -->
+
+	<footer class="pie-pagina">
+		<div class="contenedor pie-contenido">
+
+			<div class="pie-columnas">
+
+				<!-- Columna 1: Identidad -->
+				<div class="pie-bloque">
+					<img src="../assets/imagenes/fenix.jpg">
+					<h3>Gustavo Leimbek</h3>
+					<p>Web and Software Developer</p>
+					<div class="pie-redes">
+						<a href="https://github.com/gleimbek" target="_blank" rel="noopener" aria-label="GitHub">
+							<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+								<path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.08 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.07.78 2.16 0 1.56-.01 2.81-.01 3.19 0 .31.21.66.79.55A10.52 10.52 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/>
+							</svg>
+						</a>
+						<a href="https://www.linkedin.com/in/gleimbek/" target="_blank" rel="noopener" aria-label="LinkedIn">
+							<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+								<path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z"/>
+							</svg>
+						</a>
+						<a href="https://wa.me/17256001802" target="_blank" rel="noopener" aria-label="Whatsapp">
+							<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+								<path d="M17.47 14.38c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.46-.88-.78-1.47-1.75-1.65-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.62.71.23 1.36.2 1.87.12.57-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35ZM12.02 2C6.5 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.08L2 22l5.05-1.32A9.94 9.94 0 0 0 12.02 22C17.53 22 22 17.52 22 12S17.53 2 12.02 2Z"/>
+							</svg>
+						</a>
+					</div>
+				</div>
+
+				<!-- Columna 2: Navegación -->
+				<div class="pie-bloque">
+					<h4>Navigation</h4>
+					<ul class="pie-links">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#projects">Proyects</a></li>
+						<li><a href="#education-skills">Education</a></li>
+						<li><a href="#certifications">Certifications</a></li>
+						<li><a href="#resources">Resources</a></li>
+					</ul>
+				</div>
+
+				<!-- Columna 3: Formulario de contacto -->
+				<div class="pie-bloque pie-form-bloque">
+					<h4>Let's talk about your project:</h4>
+					<!-- Reemplaza TU_ID_FORMSPREE por tu ID real de https://formspree.io -->
+					<form class="pie-formulario" action="https://formspree.io/f/xrpblopz" method="POST">
+						<input type="text" name="nombre" placeholder="Your Name" required>
+						<input type="email" name="email" placeholder="Your Email" required>
+						<textarea name="mensaje" placeholder="Tell me about your project." rows="3" required></textarea>
+						<button type="submit" class="boton-primario pie-boton-form">Send message</button>
+					</form>
+				</div>
+
+			</div>
+
+			<div class="pie-linea"></div>
+
+			<div class="pie-copyright">
+				<p>&copy; <span id="anio-actual">2026</span> Gustavo Leimbek. All rights reserved.</p>
+			</div>
+
+		</div>
+
+		<!-- Botón flotante de Whatsapp -->
+		<a href="https://wa.me/17256001802" target="_blank" rel="noopener" class="whatsapp-flotante" aria-label="Chatea por Whatsapp">
+			<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+				<path d="M17.47 14.38c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.46-.88-.78-1.47-1.75-1.65-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.62.71.23 1.36.2 1.87.12.57-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35ZM12.02 2C6.5 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.08L2 22l5.05-1.32A9.94 9.94 0 0 0 12.02 22C17.53 22 22 17.52 22 12S17.53 2 12.02 2Z"/>
+			</svg>
+		</a>
+
+	</footer>
+
+	<script>
+		document.getElementById('anio-actual').textContent =
+			new Date().getFullYear();
+
+
+		const menuToggle = document.getElementById('menu-toggle');
+		const menuEnlaces = document.getElementById('menu-enlaces');
+
+		menuToggle.addEventListener('click', function () {
+			menuEnlaces.classList.toggle('active');
+
+			const abierto = menuEnlaces.classList.contains('active');
+			menuToggle.setAttribute('aria-expanded', abierto);
+			menuToggle.textContent = abierto ? '✕' : '☰';
+		});
+
+
+		/* Cerrar el menú cuando se selecciona un enlace */
+
+		document.querySelectorAll('.menu-enlaces a').forEach(function(enlace) {
+			enlace.addEventListener('click', function() {
+				menuEnlaces.classList.remove('active');
+				menuToggle.setAttribute('aria-expanded', 'false');
+				menuToggle.textContent = '☰';
+			});
+		});
+	</script>
+	<script src="/leimbek_WebStudio/assets/js/descargas.js"></script>
+</body>
+</html>
